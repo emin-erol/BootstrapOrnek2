@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.card .img-wrap {
+  height: 250px;
+  padding: 0.5rem;
+  display: block;
+}
+
+.card img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.checked {
+  color: gold;
+}
+
+.title {
+  text-decoration: none;
+  color: #212529;
+}
+
+@media (max-width: 768px) {
+  .card .img-wrap {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+.carousel-item {
+  padding: 20px;
+  height: auto;
+}
